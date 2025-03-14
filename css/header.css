@@ -1,0 +1,50 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+header h1{
+    color: var(--text-color-primary);    
+    font: var(--heading);
+    margin-bottom: 8px;
+}
+
+.profile{
+    display: flex;
+    margin-block: 32px;
+}
+
+.profile img{
+    width: 176px;
+    height: 176px;
+    object-fit: cover;      
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    max-width: 384px;
+    margin-inline: 32px;
+}
+
+.info{
+    max-width: 280px;    
+}
+
+.info ul li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-block: 8px;
+ }
+
+.info ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.info li img{
+      margin-inline: 8px;      
+}
+

@@ -1,0 +1,13 @@
+section{
+    display: flex;
+    flex-wrap: wrap;
+    gap:24px;
+    margin-block: 24px;
+    background-color: var(--background-color);
+}
+
+section img{
+    width: 286px;
+    height: 286px;
+    object-fit: cover;
+}

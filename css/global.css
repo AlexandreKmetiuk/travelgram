@@ -6,9 +6,9 @@
 
 :root{
     --font-family: "Poppins", sans-serif;
-    --heading1: 32px/125% 700;
-    --paragraph-md: 14px/170%;
-    --paragraph-sm: 12px/170%;
+    --heading: bold 32px/125% var(--font-family);
+    --paragraph-md: 14px/170% var(--font-family);
+    --paragraph-sm: 12px/170% var(--font-family);
 
     --brand-color: #EF5F4C;
     --background-color: #FFFFFF;
@@ -19,9 +19,19 @@
     --text-color-secondary: #6C6C6C;
 }
 
+body{
+    font: var(--paragraph-md);
+    color: var(--text-color-secondary);
+}
+
 .container{
-    max-width: 1280px; 
-    margin-inline: 32px;
+    max-width: 1280px;
+    margin-inline: auto;
+    padding-inline: 32px;
+}
+
+.surface-color{
+    background-color: var(--surface-color);
 }
 
 
